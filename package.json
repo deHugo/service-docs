@@ -1,0 +1,35 @@
+{
+  "name": "service-docs",
+  "version": "0.1.0",
+  "description": "Middleware to create a route which renders a module's README.md",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/eslint/bin/eslint.js ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deHugo/service-docs.git"
+  },
+  "keywords": [
+    "express",
+    "middleware",
+    "readme",
+    "docs",
+    "markdown"
+  ],
+  "author": "Daniel McQuiston <daniel.pro@dehugo.net>",
+  "license": "MIT",
+  "engines": {
+    "node": "^4"
+  },
+  "bugs": {
+    "url": "https://github.com/deHugo/service-docs/issues"
+  },
+  "homepage": "https://github.com/deHugo/service-docs#readme",
+  "dependencies": {
+    "marked": "^0.3.5"
+  },
+  "devDependencies": {
+    "eslint": "^2.13.1"
+  }
+}

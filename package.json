@@ -1,6 +1,6 @@
 {
   "name": "service-docs",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Middleware to create a route which renders a module's README.md",
   "main": "index.js",
   "scripts": {
